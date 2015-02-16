@@ -68,7 +68,7 @@ body {
 	color: #4c5058;
 
 }
-.top-navigation > .content {
+.content {
 	width: 970px;
     height: 70px;
     margin: 0 auto;
@@ -79,7 +79,7 @@ body {
 	font-size: 1.04rem;
 	margin-top: 25px;
 }
-.top-navigation > .contents {
+.top-navigation > .content {
 	width: 60%;
 	height: 4.375rem;
 	margin-top: 0px;
@@ -109,5 +109,57 @@ margin-left: 25px;
 	height: 70px;
 	width: 26px;
 	
+}
+
+/*Introduction Styling*/
+
+.introduction {
+	background-image: url("../images/first-background.jpg");
+	background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+	overflow: auto;
+}
+
+.introduction > .content > h1 {
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+}
+
+.introduction > .content > h3 {
+margin-top: 1.25rem;
+font-size: 1.563rem;
+}
+
+.introduction > .content {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+}
+
+.big-button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    margin:0 auto;
+    width: 9.688rem;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	color: white;
+	font-size: 1.125rem;
+	margin-top: 1.563rem;
+
+}
+
+.big-button:hover {
+	background-color: #b8452d;
+	cursor: pointer;
 }
 
